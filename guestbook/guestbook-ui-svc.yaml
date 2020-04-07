@@ -6,8 +6,8 @@ spec:
   ports:
     - name: http
       protocol: TCP
-      port: 80
-      targetPort: 81
+      port: 8181
+      targetPort: 8181
     - name: https
       protocol: TCP
       port: 8080
